@@ -8,7 +8,7 @@ body {
 }
 
 @font-face {
-    font-family: titre;
+    font-family: pseudo;
     src: url(/fonts/Valorant\ Font.ttf);
 }
 
@@ -24,7 +24,7 @@ main {
 
 .slw {
     margin-top: 50px;
-    font-family: titre;
+    font-family: pseudo;
     text-align: center;
     font-weight: bold;
     font-size: 90px;
