@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    background: linear-gradient(188deg, rgb(9, 19, 8) 0%, rgb(10, 10, 10) 41%);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: titre;
+    src: url(/fonts/Valorant\ Font.ttf);
+}
+
+main {
+    animation: rot 2s infinite ease;
+}
+
+.centre {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.slw {
+    margin-top: 50px;
+    font-family: titre;
+    text-align: center;
+    font-weight: bold;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.reponse {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5eeb71;
+}
+
+.input {
+    background-color: transparent;
+    border-width: 0px;
+    color: #FFFFFF;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.form-inp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 11px 25px;
+    background-color: transparent;
+    border: 1px solid #e3e3e3;
+    line-height: 1;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    color: #5eeb71;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid #5eeb71;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+
+}
+
+.descritpion {
+    padding: 10px;
+    color: #a1a1a1;
+    text-align: center;
+    font-style: italic;
+}
+
+.reseau {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotateX(-15deg) translateY(0px);
+    }
+
+    50% {
+        transform: rotateX(-15deg) translateY(-10px);
+    }
+
+    100% {
+        transform: rotateX(-15deg) translateY(0px);
+    }
+}
+
+
+
+.robux1{
+    animation: robux 2s ease-in-out infinite;
+}
+.robux2{
+    animation: robux1 2s ease-in-out infinite;
+}
+@keyframes robux {
+    0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(+50px) rotate(-45deg);
+        opacity: 0.2;
+      }
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+}
+@keyframes robux1 {
+    0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(-40px) rotate(45deg);
+        opacity: 0.2;
+      }
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+}

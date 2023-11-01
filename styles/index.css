@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    background: linear-gradient(188deg, rgb(9, 19, 8) 0%, rgb(10, 10, 10) 41%);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: titre;
+    src: url(/fonts/Valorant\ Font.ttf);
+}
+
+.titre{
+    color: #FFFF;
+    font-family: titre;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+.cashprize{
+    animation: rot 2s infinite ease;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.description{
+    color: #5eeb71;
+    font-size: 100px;
+    font-family: titre;
+    text-shadow: 2px 2px 20px #5eeb71;
+}
+.reseau {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotateX(-15deg) translateY(0px);
+    }
+
+    50% {
+        transform: rotateX(-15deg) translateY(-10px);
+    }
+
+    100% {
+        transform: rotateX(-15deg) translateY(0px);
+    }
+}
+
+
+.robux1{
+    animation: robux 2s ease-in-out infinite;
+}
+.robux2{
+    animation: robux1 2s ease-in-out infinite;
+}
+@keyframes robux {
+    0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(+50px) rotate(-45deg);
+        opacity: 0.2;
+      }
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+}
+@keyframes robux1 {
+    0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(-40px) rotate(45deg);
+        opacity: 0.2;
+      }
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+}
