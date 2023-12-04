@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: pseudo;
-    src: url(/fonts/Valorant\ Font.ttf);
+    src: url(../fonts/Valorant\ Font.ttf);
 }
 
 main {
