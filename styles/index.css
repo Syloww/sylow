@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: titre;
-    src: url(/fonts/Valorant\ Font.ttf);
+    src: url(../fonts/Valorant\ Font.ttf);
 }
 span{
     color: #5eeb71; 
