@@ -81,38 +81,6 @@ span{
     }
 }
 
-
-.robux1{
-    animation: robux 2s ease-in-out infinite;
-}
-.robux2{
-    animation: robux1 2s ease-in-out infinite;
-}
-@keyframes robux {
-    0% {
-        transform: translateY(0) rotate(0);
-      }
-      50% {
-        transform: translateY(+50px) rotate(-45deg);
-        opacity: 0.2;
-      }
-      100% {
-        transform: translateY(0) rotate(0);
-      }
-}
-@keyframes robux1 {
-    0% {
-        transform: translateY(0) rotate(0);
-      }
-      50% {
-        transform: translateY(-40px) rotate(45deg);
-        opacity: 0.2;
-      }
-      100% {
-        transform: translateY(0) rotate(0);
-      }
-}
-
 @media only screen and (max-width: 767px) {
     body{
         overflow-x: hidden;
