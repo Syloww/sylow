@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    background: linear-gradient(188deg, rgb(9, 19, 8) 0%, rgb(10, 10, 10) 41%);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: titre;
+    src: url(/fonts/Valorant\ Font.ttf);
+}
+span{
+    color: #5eeb71; 
+}
+.titre{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: titre;
+    font-size: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.teaser{
+    text-decoration: none;
+    color: #5eeb71;
+    font-family: titre;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.reseau {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}

@@ -11,7 +11,9 @@ body {
     font-family: titre;
     src: url(/fonts/Valorant\ Font.ttf);
 }
-
+span{
+    color: #5eeb71; 
+}
 .titre{
     color: #FFFF;
     font-family: titre;
@@ -19,7 +21,7 @@ body {
     padding: 20px;
     font-size: 50px;
 }
-.cashprize{
+.grostitre{
     animation: rot 2s infinite ease;
     gap: 40px;
     display: flex;
@@ -28,20 +30,18 @@ body {
     justify-content: center;
     padding: 150px;
 }
-.spoil{
+.biographie{
     font-style: italic;
     color: #FFFF;
-    display: flex;
     text-align: center;
-    padding: 20px;
-    justify-content: center;
-    text-decoration: none;
+    margin: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 .description{
     color: #5eeb71;
     font-size: 100px;
+    margin: 250px;
     font-family: titre;
     text-shadow: 2px 2px 20px #5eeb71;
 }
@@ -49,6 +49,22 @@ body {
     gap: 20px;
     display: flex;
     justify-content: center;
+}
+
+.crea{
+    text-decoration: none;
+    color: #5eeb71;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: titre;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    justify-content: center;
+    display: flex;
 }
 
 @keyframes rot {
@@ -95,4 +111,16 @@ body {
       100% {
         transform: translateY(0) rotate(0);
       }
+}
+
+@media only screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .description{
+        color: #5eeb71;
+        font-size: 50px;
+        font-family: titre;
+        text-shadow: 2px 2px 20px #5eeb71;
+    }
 }
