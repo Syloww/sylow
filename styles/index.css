@@ -43,6 +43,7 @@ span{
     font-size: 100px;
     margin: 250px;
     font-family: titre;
+    text-align: center;
     text-shadow: 2px 2px 20px #5eeb71;
 }
 .reseau {
@@ -60,6 +61,7 @@ span{
     font-family: titre;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 .flex{
