@@ -11,6 +11,11 @@ body {
     font-family: titre;
     src: url(../fonts/Valorant\ Font.ttf);
 }
+@font-face {
+    font-family: texte;
+    src: url(../fonts/GameCube.ttf);
+}
+
 span{
     color: #5eeb71; 
 }
@@ -33,8 +38,74 @@ span{
     display: flex;
     justify-content: center;
 }
+.description{
+    text-decoration: none;
+    color: #FFF;
+    font-family: texte;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* ************************************************* */
+.crea{
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.creatitre{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: titre;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    width: 600px;
+}
+.stat{
+    font-family: texte;
+    font-size: 15px;
+    color: #FFF;
+}
+/* ********************************************** */
 .reseau {
     gap: 20px;
     display: flex;
     justify-content: center;
+}
+/* ***************************************************************** */
+@media only screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .titre{
+        color: #FFFF;
+        font-size: 30px;
+        padding: 5px;
+    }
+    .description{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .teaser{
+        color: #5eeb71;
+        font-size: 20px;
+        font-family: titre;
+        text-shadow: 2px 2px 20px #5eeb71;
+    }
+    .creatitre{
+        font-size: 30px;
+        padding: 15px;
+    }
+    img{
+        width: 250px;
+    }
+    .stat{
+        font-size: 12px;
+    }
 }
