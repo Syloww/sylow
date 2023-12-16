@@ -9,10 +9,7 @@ function valider() {
     resultat = Math.cbrt(resultat);
     resultat = resultat / 4;
     resultat = Math.pow(resultat, 5);
-    resultat = resultat - 75;
-    resultat = resultat * 3.5;
     codesecret = 4 -888
-    resultat = resultat - (resultat * 0.20);
     resultat=resultat-0.9503180499537
     resultat = resultat + 350;
     codesecret = 4+88
